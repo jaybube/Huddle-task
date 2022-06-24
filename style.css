@@ -1,0 +1,409 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    background-size: cover;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.hero__section {
+    min-height: 100vh;
+    background: url(images/bg-hero-desktop.svg) no-repeat;
+    background-color: rgb(182, 243, 239);
+    margin-bottom: 4rem;
+}
+
+header {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.logo img {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .8rem 4rem;
+    border-radius: 5rem;
+    background: #fff;
+    font-size: 1.5rem;
+    color: #000;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+/* .hero_home .hero_container h3{
+    font-size: 6.5rem;
+    color:#0A2127;
+    text-transform: capitalize;
+    max-width: 400px;
+    font-weight: bolder;
+}
+
+
+.hero_home .hero_container p{
+    font-size: 20px;
+    color:#0A2127;
+    padding:1rem 0;
+    max-width: 300px;
+    line-height: 17px;
+} */
+
+
+.pip {
+    font-size: 30px;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+
+.pop {
+    font-size: 15px;
+    max-width: 550px;
+    margin-bottom: 20px;
+
+}
+
+.btns {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .8rem 4rem;
+    border-radius: 5rem;
+    background: #FF51C0;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    text-decoration: none;
+}
+
+.hero__home .image img {
+    width: 90%;
+    animation: float 3s linear infinite;
+    margin-top: 2rem;
+    padding-left: 70px;
+}
+
+.hero__home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 91%;
+    margin: auto;
+
+}
+
+.card__layout-one {
+    padding: 40px 20px;
+}
+
+.card__layout-two {
+    padding: 40px 20px;
+}
+
+.card__layout-three {
+    padding: 40px 20px;
+
+}
+
+.card-text-container>h3 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+
+.card-text-container>p {
+    color: #5d5b5d;
+    margin-bottom: 1rem;
+    line-height: 30px;
+    font-size: 15px;
+    max-width: 400px;
+}
+
+.card-img-container>img {
+    width: 300px;
+    padding: 2rem;
+}
+
+.card__layout-one {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    border-radius: 20px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.1), 0 17px 50px rgba(0, 0, 0, 0.1);
+    width: 91%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.card__layout-two {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    border-radius: 20px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.1), 0 17px 50px rgba(0, 0, 0, 0.1);
+    width: 91%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.card__layout-three {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    border-radius: 20px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.1), 0 17px 50px rgba(0, 0, 0, 0.1);
+    width: 91%;
+    margin: auto;
+}
+
+
+
+.fot {
+    height: 50%;
+    background-color: rgb(4, 73, 85);
+    padding-left: 40px;
+    margin-top: 150px;
+
+}
+
+
+.cardz {
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    border-radius: 10px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.1), 0 17px 50px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    margin: auto;
+}
+
+h2 {
+    padding: 45px 70px;
+    font-size: 20px;
+
+}
+
+
+.btn1 {
+    width: 40%;
+    padding: 14px 70px;
+    color: #fff;
+    background-color: rgb(228, 24, 143);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    min-width: 300px;
+    margin-left: 80px;
+}
+
+
+.fat {
+    display: flex;
+}
+
+
+.pics {
+    margin: 0px 60px;
+}
+
+
+
+.pic img {
+    margin: 50px 10px;
+    width: 40%;
+}
+
+
+
+.loc img {
+
+    height: 20px;
+}
+
+.loc {
+    display: flex;
+    max-width: 350px;
+
+}
+
+.pa1 {
+    font-size: 15px;
+    color: #fff;
+    padding-left: 25px;
+    margin: 2px 8px 15px 2px;
+
+}
+
+.loc1 {
+    display: flex;
+    max-width: 350px;
+
+}
+
+.loc1 img {
+
+    height: 20px;
+}
+
+.loc2 {
+    display: flex;
+    max-width: 350px;
+
+}
+
+.loc2 img {
+
+    height: 20px;
+}
+
+.pa2 {
+    font-size: 15px;
+    color: #fff;
+    padding-left: 25px;
+    margin: 2px 5px 28px 2px;
+
+}
+
+.pa3 {
+    font-size: 15px;
+    color: #fff;
+    padding-left: 25px;
+    margin: 2px 8px 15px 2px;
+
+}
+
+.ruun {
+    display: flex;
+    margin: 100px 20px 20px;
+
+}
+
+.poo {
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.icon {
+    display: flex;
+
+    color: #fff;
+    margin: 110px 140px;
+    padding: 0px 40px;
+}
+
+.fa-facebook {
+
+    padding: 6px;
+    border: 1px solid #fff;
+    height: 12px;
+    width: 30%;
+    border-radius: 60%;
+
+}
+
+.fa-twitter {
+
+    padding: 6px;
+    border: 1px solid #fff;
+    height: 12px;
+    width: 30%;
+    border-radius: 60%;
+    margin-left: 30px;
+
+}
+
+.fa-instagram {
+
+    padding: 6px;
+    border: 1px solid #fff;
+    height: 12px;
+    width: 30%;
+    border-radius: 60%;
+    margin-left: 30px;
+}
+
+
+.it {
+    color: #fff;
+    margin-top: 70px;
+    padding-left: 920px;
+    font-size: 15px;
+
+}
+
+@media (max-width:768px) {
+    .hero__home {
+        display: block;
+    }
+
+    .fot {
+        padding-left: 0px;
+    }
+
+    .cardz {
+        width: 100%;
+        margin-right: 50px;
+    }
+
+    .fat {
+        display: block;
+    }
+
+    .it {
+        display: block;
+    }
+}
